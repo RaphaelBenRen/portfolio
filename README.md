@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio CV - Raphaël Benat Renucci
 
-## Getting Started
+Site web professionnel de CV créé avec Next.js, TypeScript et Tailwind CSS.
 
-First, run the development server:
+## 🚀 Déploiement sur Vercel (Gratuit)
+
+### Prérequis
+- Un compte GitHub (gratuit)
+- Un compte Vercel (gratuit) - [vercel.com](https://vercel.com)
+
+### Étapes de déploiement
+
+#### 1. Initialiser Git et pousser sur GitHub
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Dans le dossier portfolio
+cd portfolio
+
+# Initialiser Git
+git init
+
+# Ajouter tous les fichiers
+git add .
+
+# Créer le premier commit
+git commit -m "Initial commit - CV website"
+
+# Créer un nouveau repository sur GitHub (via l'interface web)
+# Puis lier votre repository local :
+git remote add origin https://github.com/VOTRE-USERNAME/VOTRE-REPO.git
+git branch -M main
+git push -u origin main
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### 2. Déployer sur Vercel
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Allez sur [vercel.com](https://vercel.com) et connectez-vous avec GitHub
+2. Cliquez sur "Add New Project"
+3. Importez votre repository GitHub
+4. Vercel détectera automatiquement Next.js
+5. Cliquez sur "Deploy"
+6. Attendez quelques minutes - votre site sera en ligne !
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🎉 C'est tout !
 
-## Learn More
+Vercel vous donnera une URL du type : `https://votre-projet.vercel.app`
 
-To learn more about Next.js, take a look at the following resources:
+Chaque fois que vous pousserez des modifications sur GitHub, Vercel redéploiera automatiquement votre site.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Modifier le contenu
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Pour mettre à jour vos informations :
 
-## Deploy on Vercel
+1. Ouvrez le fichier `data/resume.ts`
+2. Modifiez les données (expérience, compétences, etc.)
+3. Sauvegardez
+4. Testez localement avec `npm run dev`
+5. Poussez sur GitHub - Vercel mettra à jour automatiquement
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Développement local
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
+npm run dev
+
+# Ouvrir http://localhost:3000
+```
+
+## 📦 Build de production
+
+```bash
+npm run build
+npm start
+```
+
+## 🎨 Fonctionnalités
+
+- ✅ Design professionnel et sobre
+- ✅ Mode sombre automatique
+- ✅ Responsive (mobile/tablette/desktop)
+- ✅ Navigation fluide
+- ✅ Page CV complète
+- ✅ Page lettre de motivation
+- ✅ Optimisé pour le SEO
+- ✅ Performance optimale
+
+## 📧 Contact
+
+Pour toute question : raphael.benat-renucci@inseec.net

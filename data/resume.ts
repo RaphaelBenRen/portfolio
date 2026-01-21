@@ -1,0 +1,306 @@
+export const resumeData = {
+  personalInfo: {
+    name: "Raphaël Benat Renucci",
+    title: "Élève-ingénieur M1 - ECE Paris",
+    subtitle: "Spé. Ingénierie et Design Product",
+    email: "rafbenren@icloud.com",
+    phone: "+33 6 28 49 06 52",
+    location: "27 avenue Kléber, 75016 Paris",
+    linkedin: "www.linkedin.com/in/rapha%C3%ABl-benat-renucci-260269275/",
+    github: "github.com/RaphaelBenRen",
+  },
+
+  about: `Étudiant ingénieur ECE Paris (M1) spécialisé en Ingénierie et Design Product, passionné par la création de produits qui répondent aux besoins utilisateurs. Profil hybride Product Manager/Tech avec une expérience en gestion de projet Agile, user research, priorisation de features et coordination d'équipes. Compétences techniques en développement web/mobile (React, React Native) et IA (LLM, APIs) permettant de comprendre les enjeux techniques et de dialoguer efficacement avec les équipes de développement. Recherche un stage de 4 à 5 mois en Product Manager, Product Owner ou Assistant Chef de Projet début avril 2026.`,
+
+  professionalExperience: [
+    {
+      title: "Stage Ouvrier",
+      company: "Optima Monétique Systèmes",
+      period: "Jan. 2024 – Fév. 2024",
+      location: "Sophia Antipolis",
+      type: "CDD",
+      description: [
+        "Acquisition de compétences sur Photoshop et Octoparse",
+        "Maîtrise de la suite Adobe pour le traitement d'images",
+        "Travail sur des projets de monétique et systèmes de paiement",
+      ],
+      skills: ["Adobe Suite", "Octoparse", "Photoshop"],
+    },
+    {
+      title: "Responsable de Rayon",
+      company: "Métro",
+      period: "Juin 2023 – Août 2023",
+      location: "Nice",
+      type: "CDD",
+      description: [
+        "Gestion et organisation des articles en rayon",
+        "Assistance et conseils aux clients",
+        "Supervision des stocks et gestion d'inventaire",
+      ],
+      skills: ["Gestion d'équipe", "Organisation", "Service client"],
+    },
+    {
+      title: "Serveur",
+      company: "Beaurivage Plage",
+      period: "Juin 2021 – Août 2021",
+      location: "Nice",
+      type: "CDD",
+      description: [
+        "Service client dans un environnement dynamique",
+        "Gestion du débarrassage et redressage des tables",
+        "Travail en équipe pour optimiser l'expérience client",
+      ],
+      skills: ["Service client", "Travail en équipe", "Réactivité"],
+    },
+  ],
+
+  academicProjects: [
+    {
+      title: "SmartStudy – App Mobile de Révision par IA",
+      company: "Projet Professionnel ECE (PPE)",
+      period: "2025 – Aujourd'hui",
+      location: "Paris",
+      description: [
+        "Co-conception des fonctionnalités et priorisation des besoins étudiants",
+        "Génération automatique de QCM/flashcards personnalisés",
+        "Stack : React Native (Expo), Supabase, Render, base vectorielle, ChatGPT API",
+      ],
+      pmSkills: ["Product Discovery", "Priorisation features", "User Research", "Roadmap produit"],
+    },
+    {
+      title: "Milo AI – Assistant Vocal Intelligent",
+      company: "Projet Académique ECE",
+      period: "2025 – Aujourd'hui",
+      location: "Paris",
+      description: [
+        "Définition des fonctionnalités et tests utilisateurs",
+        "Création de benchmarks pour évaluation de performance",
+        "Utilisation d'une IA juge pour évaluer la qualité des réponses",
+        "Participation aux cérémonies Agile (sprints, daily standups)",
+        "Ajustement des comportements basé sur les retours utilisateurs",
+        "Stack : Flask, Socket.IO, Redis, Whisper (ASR), LLM Qwen3",
+      ],
+      pmSkills: ["Méthodologie Agile", "User Testing", "Feedback loops", "Backlog management"],
+    },
+    {
+      title: "Stellantis – Reconnaissance Faciale & Confort Automobile",
+      company: "Projet R&D avec Stellantis",
+      period: "2024",
+      location: "Paris",
+      description: [
+        "Entraînement de dataset d'émotions pour reconnaissance faciale en temps réel",
+        "Développement d'un système d'ajustement automatique de température basé sur les expressions faciales",
+        "Études R&D sur le lien entre expressions faciales et confort thermique",
+        "Analyse de données et validation des hypothèses produit",
+      ],
+      pmSkills: ["Product Research", "Data Analysis", "MVP Definition", "Stakeholder Management"],
+    },
+    {
+      title: "Site Web Admin – Gestion de Capteurs IoT",
+      company: "Projet Académique ECE",
+      period: "2024",
+      location: "Paris",
+      description: [
+        "Création d'interface admin pour gestion de capteurs, utilisateurs et foyers",
+        "Intégration d'APIs externes (OpenWeather, etc.)",
+        "Design de tableaux de bord et visualisation de données",
+        "Gestion des permissions et rôles utilisateurs",
+      ],
+      pmSkills: ["UX/UI Design", "API Integration", "Dashboard Design", "User Permissions"],
+    },
+    {
+      title: "Metr. – Plateforme Collaborative de Gestion de Projets",
+      company: "Projet Startup ECE",
+      period: "2024",
+      location: "Paris",
+      description: [
+        "Création de site web avec gestion de projets et bibliothèques",
+        "Collaboration de projets type Google Workspace",
+        "Travail en méthodologies Agiles avec retours clients réguliers",
+        "Itérations basées sur les feedbacks utilisateurs",
+      ],
+      pmSkills: ["Product Vision", "Agile Methodology", "Customer Feedback", "Feature Prioritization"],
+    },
+    {
+      title: "App Mobile Jeux Olympiques – Prototype Figma",
+      company: "Projet Design ECE",
+      period: "2024",
+      location: "Paris",
+      description: [
+        "Conception complète d'une application mobile sur Figma",
+        "Design d'animations et micro-interactions",
+        "Prototypage interactif et tests utilisateurs",
+        "Focus sur l'expérience utilisateur et l'accessibilité",
+      ],
+      pmSkills: ["UX/UI Design", "Prototyping", "User Flow", "Design System"],
+    },
+    {
+      title: "Robot Mobile & Mini-jeux en C",
+      company: "Projet Académique ECE",
+      period: "Oct. 2022 – Mar. 2023",
+      location: "Paris",
+      description: [
+        "Conception d'un robot : reconnaissance chiffres/formes, capteurs Arduino/servomoteurs",
+        "Travail en équipe de 4 : répartition des tâches et suivi d'avancement",
+        "Mini-jeux : labyrinthe, pêche au canard (Allegro)",
+      ],
+      pmSkills: ["Team Coordination", "Task Management", "Sprint Planning"],
+    },
+  ],
+
+  personalProjects: [
+    {
+      title: "Outfit Bundle AI – App Shopify",
+      company: "",
+      period: "2024 – 2025",
+      location: "Remote",
+      description: [
+        "Conception de la proposition de valeur et validation avec utilisateurs",
+        "Bot Telegram + n8n : génération automatique de looks à partir de photos produits",
+        "Déploiement Shopify en production (App Bridge, thème custom)",
+        "Stack : Shopify Admin API, Webhooks, MySQL, n8n, APIs IA générative",
+      ],
+      pmSkills: ["Value Proposition", "User Validation", "Go-to-Market", "Product Launch"],
+    },
+    {
+      title: "Hookify – Plateforme de Génération de Hooks",
+      company: "Projet Personnel",
+      period: "2024",
+      location: "Remote",
+      description: [
+        "Définition du MVP et recueil de feedbacks utilisateurs",
+        "Déploiement : Docker, VPS OVH, TLS Let's Encrypt",
+        "Stack : Node.js, Caddy/Nginx, CORS, releases avec zéro downtime",
+      ],
+      pmSkills: ["MVP Definition", "User Feedback", "Product Iteration"],
+    },
+  ],
+
+  volunteer: [
+    {
+      title: "Bénévole AFEV",
+      organization: "Association de la Fondation Étudiante pour la Ville",
+      period: "2021",
+      description: "Accompagnement d'élèves en difficulté scolaire, mentorat et soutien éducatif",
+    },
+    {
+      title: "Ambassadeur UNICEF",
+      organization: "UNICEF France",
+      period: "2020",
+      description: "Sensibilisation aux droits de l'enfant et actions de collecte de fonds",
+    },
+  ],
+
+  education: [
+    {
+      degree: "Diplôme d'Ingénieur - Majeure Ingénierie et Design Produit",
+      school: "ECE Paris",
+      period: "2022 – 2027",
+      location: "Paris, France",
+      description: "M1, 4ème année du cycle ingénieur. Cours : Méthodologie agile, gestion de projet, UX/UI, No code, Dév WEB, Design Thinking/System. Échange de 4 mois (09-12/24) à Kyungpook National University en Corée du Sud (enseignements en anglais).",
+    },
+    {
+      degree: "CPGE PCSI",
+      school: "Lycée Les Eucalyptus",
+      period: "2021 – 2022",
+      location: "Nice, France",
+      description: "Classe préparatoire aux grandes écoles - Physique, Chimie et Sciences de l'Ingénieur",
+    },
+    {
+      degree: "Baccalauréat - Mention Très Bien",
+      school: "Lycée Masséna",
+      period: "2018 – 2021",
+      location: "Nice, France",
+      description: "Spécialités : Mathématiques, Physique-Chimie",
+    },
+  ],
+
+  skills: {
+    "Product Management": [
+      "Méthodologies Agiles (SCRUM, Kanban)",
+      "User Research & Testing",
+      "Product Discovery",
+      "Roadmap & Priorisation",
+      "Backlog Management",
+      "Stakeholder Management",
+    ],
+    "Design & UX/UI": [
+      "Figma",
+      "Canva",
+      "Design Thinking",
+      "Design System",
+      "Prototyping",
+      "User Flow",
+    ],
+    "Développement": [
+      "JavaScript/React",
+      "React Native",
+      "Python",
+      "PHP",
+      "Java",
+      "C",
+      "HTML/CSS",
+    ],
+    "IA & Data": [
+      "LLM (Qwen3, ChatGPT API)",
+      "Bases vectorielles",
+      "Whisper (ASR)",
+      "Dataset Training",
+      "Data Analysis",
+      "Benchmark Creation",
+      "IA Juge (LLM as Judge)",
+    ],
+    "DevOps & Infrastructure": [
+      "Docker",
+      "VPS Ubuntu",
+      "Caddy/Nginx",
+      "Redis",
+      "MySQL",
+      "Supabase",
+    ],
+    "No-Code & Automation": [
+      "Airtable",
+      "n8n",
+      "MongoDB",
+      "Webhooks",
+      "REST APIs",
+    ],
+    "Outils": [
+      "Git",
+      "VS Code",
+      "Octoparse",
+      "Shopify",
+      "Trello",
+      "Notion",
+    ],
+  },
+
+  languages: [
+    { name: "Français", level: "Langue maternelle" },
+    { name: "Anglais", level: "Opérationnel (TOEIC 835/990)" },
+    { name: "Italien", level: "Opérationnel (B1)" },
+  ],
+
+  certifications: [
+    "MOOC Gestion de Projet - Parcours Classique (Jan 2026)",
+  ],
+
+  qualities: [
+    "Réactivité",
+    "Volontaire",
+    "Esprit d'équipe",
+    "Orientation résultats",
+    "Curiosité technique",
+    "Autonomie",
+    "Adaptabilité",
+    "Leadership",
+  ],
+
+  interests: [
+    "Basketball (Gestion équipe ECE depuis 2 ans)",
+    "Tennis (10 ans en compétition)",
+    "Voyages",
+    "Échecs",
+    "Nouvelles technologies",
+  ],
+};
