@@ -1,4 +1,4 @@
-# Portfolio CV - Raphaël Benat Renucci
+# Portfolio CV - Raphaël Benat Renucci.
 
 Site web professionnel de CV développé avec Next.js, TypeScript et Tailwind CSS.
 
